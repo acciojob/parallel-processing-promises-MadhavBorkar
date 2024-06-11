@@ -1,9 +1,11 @@
 //your JS code here. If required.
+const output = document.getElementById("output");
+const btn = document.getElementById("download-images-button");
+
 const imageUrls = [
-      { url: 'https://example.com/image1.jpg' },
-      { url: 'https://example.com/image2.jpg' },
-      { url: 'https://example.com/image3.jpg' }
-      // Add more image URLs here
+      { url: "https://picsum.photos/id/237/200/300" },
+	  { url: "https://picsum.photos/id/238/200/300" },
+	  { url: "https://picsum.photos/id/239/200/300" },
     ];
 
     document.getElementById('download-images-button').addEventListener('click', downloadImages);
